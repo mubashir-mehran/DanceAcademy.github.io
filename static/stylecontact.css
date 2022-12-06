@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    height: 80vh;
+}
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 53px;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myInput{
+    font-size: 16px;
+    width: 39%;
+    padding: 8px;
+    margin: 9px;
+    border: 2px solid;
+    border-radius: 19px;
+}
+.btn{
+    padding: 7px 12px;
+    font-size: 18px;
+    border: 2px solid #fff9f9;
+    border-radius: 13px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}

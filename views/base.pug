@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Mehran Dance Academy
+    block scripts
+    block style 
+      script(src='/jquery.js')
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/img/dance2.PNG")
+                | HDA 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About us] 
+            li #[a(href="/") Services]
+            li #[a(href="/") Classes Info] 
+            li #[a(href="/contact") Contact Us] 
+    block content
+    footer#footer 
+        | Copyright © Mehran Memon |All right reserved

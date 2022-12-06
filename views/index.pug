@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Mehran Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/img/dance2.PNG")
+                | HDA 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About us] 
+            li #[a(href="/") Services]
+            li #[a(href="/") Classes Info] 
+            li #[a(href="/") Contact Us] 
+
+    section#introscdection 
+        div Welcome to Mehran's dance academy 
+          div.small Dance Eat Sleep Dance  
+    
+    section#missionsection
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/dance5.JPG")
+                div.card-content 
+                    p This is the best Dance academy of the world    
+
+        div.card
+            h3 Dance the way you Like
+             div.card-box
+                div.card-img 
+                    img(src="/static/img/dance3.PNG")
+                div.card-content 
+                    p This is the best Dance academy of the world
+        div.card
+            h3 Expert Teaching
+             div.card-box
+                div.card-img 
+                    img(src="/static/img/dance4.PNG")
+                div.card-content 
+                    p This is the best Dance academy of the world
+
+    section#sponserssection
+        h2 Our sponsers
+        div#sponsers  
+            img(src="/static/img/apple.JPG", alt="Sponsers Image", class="spImage")
+            img(src="/static/img/hp.JPG", alt="Sponsers Image", class="spImage")
+            img(src="/static/img/microsoft.JPG", alt="Sponsers Image", class="spImage")
+            img(src="/static/img/skype.PNG", alt="Sponsers Image", class="spImage")
+
+    footer#footer 
+        | Copyright © Mehran Memon |All right reserved  
+    script
+      include ../static/index.js

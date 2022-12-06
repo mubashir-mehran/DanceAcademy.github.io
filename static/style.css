@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(245, 39, 39);
+    padding: 13px 30px;
+    font-family: 'Lacquer';
+    font-size: 22px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    padding: 7px 30px;
+}
+#navbar li a:hover{
+    color:black;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px;
+    font-size: 19px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#introsection {
+    height: 425px;
+    background-color: red;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 51px;
+
+}
+#introsection div.small{
+    font-size: 34px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#missionsection{
+    height: 326px;
+    background-color: rgb(240, 175, 159);
+    margin: auto;
+    width: 67%;
+    display: block;
+
+}
+#missionsection h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 42px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 203px;
+    display: inline-block;
+    margin: 23px 22px;
+    background-color: #fffffd;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height: 145px;
+    margin: 5px 0px;
+    
+}
+#sponserssection{
+    height: 300px;
+    background-color: #f1f1f100;
+
+}
+#sponserssection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+}
+#sponsers{
+    height: 191px;
+    width: 1000px;
+    margin: 27px auto;
+}
+.spImage{
+        height: 102px;
+        margin: 47px;
+        margin-right: 65px;
+}
+#footer{
+    height: 60px;
+    background-color: black;
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
